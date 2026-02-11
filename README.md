@@ -32,13 +32,13 @@ This project aims to answer:
 Does payment type significantly affect driver revenue?
 
 # Dataset
-Source: NYC Yellow Taxi Trip Data (2023)
+- Source: NYC Yellow Taxi Trip Data (2023)
 
-Time Period Used: January–February 2023
+- Time Period Used: January–February 2023
 
-Size: Multi-million trip records
+- Size: Multi-million trip records
 
-Processing Method: Chunk-based loading for memory efficiency
+- Processing Method: Chunk-based loading for memory efficiency
 
 > ⚠️ Note: The original dataset is not included in this repository due to its large size. However, it is publicly available on data.gov.
 
