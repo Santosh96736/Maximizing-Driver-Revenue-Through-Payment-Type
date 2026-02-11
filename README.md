@@ -40,6 +40,8 @@ Size: Multi-million trip records
 
 Processing Method: Chunk-based loading for memory efficiency
 
+> ⚠️ Note: The original dataset is not included in this repository due to its large size. However, it is publicly available on data.gov.
+
 ## Selected Columns
 | Column           | Description                           |
 | ---------------- | ------------------------------------- |
