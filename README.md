@@ -1,4 +1,4 @@
-# Maximizing-Driver-Revenue-Through-Payment-Type
+# Maximizing Driver Revenue Through Payment Type
 
 ## Table of Contents
 - [Project Overview](#project-overview)
