@@ -1,5 +1,17 @@
 # Maximizing-Driver-Revenue-Through-Payment-Type
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Business Problem](#business-problem)
+- [Dataset](#dataset)
+- [Technical Approach](#technical-approach)
+- [Statistical Testing](#statistical-testing)
+- [Key Findings](#key-findings)
+- [Business Recommendation](#business-recommendation)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Contact](#contact)
+
+
 # Project Overview
 This project analyzes NYC Yellow Taxi trip data to determine whether payment type (Card vs Cash) significantly impacts driver revenue per trip.
 
@@ -29,16 +41,18 @@ Size: Multi-million trip records
 Processing Method: Chunk-based loading for memory efficiency
 
 ## Selected Columns
-| Columns          | Over View            |
-| ---------------- | -------------------- |
-| pickup_datetime  | Trip start time      |
-| dropoff_datetime | Trip end time        |
-| passenger_count  | Trip passenger count |
-| trip_distance    |        |
-| payment_type     | Independent variable |
-| fare_amount      | Dependent variable   |
+| Column           | Description                           |
+| ---------------- | ------------------------------------- |
+| pickup_datetime  | Trip start time                       |
+| dropoff_datetime | Trip end time                         |
+| passenger_count  | Number of passengers                  |
+| trip_distance    | Distance traveled (miles)             |
+| payment_type     | Types of payment (Card, Cash)         |
+| fare_amount      | Revenue per trip                      |
 
-# Technical Approach :
+
+# Technical Approach 
+
 ## Large-Scale Data Handling
 - Used chunksize=1_000_000
 
@@ -120,9 +134,11 @@ Conclusion:
 
 ## Key Findings
 
-- Card payments have higher average fare and lower standard deviation than cash.
+- Card payments have higher average fare than cash.
 
 - Revenue difference is statistically significant.
+
+- Card transactions show lower variability than cash.
 
 ## Business Recommendation
 
@@ -145,3 +161,9 @@ Conclusion:
 - Hypothesis testing
 
 - Business interpretation
+
+## Contact
+If you would like to discuss this project or collaborate:
+
+-  📧 EMAIL : [Santosh Kumar Sahu](santosh96736@gmail.com)
+-  🔗 LINKEDIN : [Santosh Kumar Sahu](https://www.linkedin.com/in/santosh-kumar-sahu-data-analyst)
