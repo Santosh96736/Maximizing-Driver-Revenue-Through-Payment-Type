@@ -95,6 +95,7 @@ Key observation:
 - Card payments dominate usage
 
 - Card trips show higher average fares
+![Fare and Distance Distribution By Payment Type](https://github.com/Santosh96736/Maximizing-Driver-Revenue-Through-Payment-Type/blob/main/fare_%26_distance_distribution_by_payment_type.png)
 
 ## Statistical Testing
 Hypothesis
